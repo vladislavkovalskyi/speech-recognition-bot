@@ -1,5 +1,5 @@
 .git
-.DS_STORE
+.DS_Store
 .env
 __pycache__
 poetry.lock

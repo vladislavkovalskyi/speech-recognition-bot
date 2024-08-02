@@ -1,3 +1,3 @@
-from . import start
+from src.commands import start, recognizer
 
-dps = [start.dp]
+dps = [start.dp, recognizer.dp]

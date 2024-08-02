@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "mubble-template"
+name = "Speech Recognition Bot"
 version = "0.1.0"
-description = "Template for projects based on mubble framework"
+description = "Telegram bot that can recognize any voice message."
 authors = ["vladislavkovalskyi <v.darknesssb@gmail.com>"]
 readme = "README.md"
 
@@ -9,7 +9,12 @@ readme = "README.md"
 python = "^3.12"
 mubble = "^1.2.3"
 envparse = "^0.2.0"
+speechrecognition = "^3.10.4"
+pydub = "^0.25.1"
 
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
 
 [build-system]
 requires = ["poetry-core"]
